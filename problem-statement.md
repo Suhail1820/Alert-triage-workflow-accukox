@@ -1,7 +1,8 @@
 # Problem Statement
 
-Cloud security platforms generate a large number of alerts across cloud environments on a daily basis. These alerts vary in severity and context, making it challenging for cloud security engineers to quickly identify which alerts require immediate attention.
+Modern cloud environments rely on multiple services such as logging systems, threat detection tools, and compliance monitors to generate security alerts. While these systems are essential for identifying risks, they produce a high volume of alerts on a continuous basis.
 
-Due to high alert volume and limited investigation time, security engineers often face alert fatigue, delayed responses, and difficulty understanding the root cause and impact of each alert.
+A significant portion of these alerts are low-priority or false positives, making it difficult for cloud security analysts to quickly distinguish between critical threats and non-urgent issues. As a result, analysts often experience alert fatigue, which reduces their ability to focus on high-impact incidents.
 
-There is a need for a simple and structured alert triage workflow that helps security engineers prioritize alerts, understand the issue efficiently, and take appropriate action to resolve cloud security risks in a timely manner.
+In addition to the volume problem, alert-related information is typically scattered across different tools such as cloud consoles, monitoring systems, and ticketing platforms. This forces analysts to switch between multiple interfaces to gather context, investigate the root cause, and determine the appropriate remediation steps. This fragmented workflow increases the time required to investigate each alert and slows down overall response time.
+
