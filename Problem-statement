@@ -1,0 +1,4 @@
+Problem Statement
+
+Modern cloud environments generate a continuous stream of security alerts from multiple services and tools. While these alerts are critical for identifying threats, a large portion of them are low-priority or false positives.
+This creates difficulty for cloud security analysts in quickly identifying high-risk issues, as important alerts often get buried within noisy data. Additionally, the lack of a unified interface for viewing alert details, logs, and remediation steps forces analysts to switch between multiple tools, slowing down the investigation process.
