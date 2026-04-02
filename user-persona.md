@@ -7,9 +7,9 @@ A Cloud Security Analyst is responsible for continuously monitoring cloud infras
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Work Context
 
-Handles alerts from services like AWS GuardDuty, CloudTrail, and security tools
-Works across multiple cloud accounts and environments
-Deals with both real threats and large volumes of low-risk alerts
+Handles alerts from services like AWS GuardDuty, CloudTrail, and security tools.
+Works across multiple cloud accounts and environments.
+Deals with both real threats and large volumes of low-risk alerts.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Experience Level
