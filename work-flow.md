@@ -90,7 +90,7 @@ Execute actions:
 • Enable faster onboarding of new analysts
 ________________________________________
 
-## Remediation & Automation
+# Remediation & Automation
 
 ## After remediation:
 
