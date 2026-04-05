@@ -1,8 +1,16 @@
-This workflow outlines how a cloud security analyst efficiently reviews, investigates, and resolves security alerts within a centralized system.
+This workflow represents how a cloud security engineer uses a centralized, multi-cloud dashboard to efficiently triage, investigate, and resolve security alerts.
 ________________________________________
 
 ## Alert Aggregation
-Security alerts are generated from multiple cloud services and monitoring tools. These alerts are collected and displayed in a unified system with an assigned severity level based on risk.
+
+Security alerts are generated from multiple cloud-native and security tools such as AWS GuardDuty and AWS CloudTrail, along with Azure and GCP equivalents.
+
+These alerts are:
+
+Aggregated into a centralized system
+Normalized into a common format
+Enriched with context (cloud, account, resource, IAM actor)
+Assigned a severity level based on risk and impact
 ________________________________________
 
 ## Alert Overview & Prioritization
