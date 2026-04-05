@@ -7,31 +7,106 @@ Security alerts are generated from multiple cloud-native and security tools such
 
 These alerts are:
 
-Aggregated into a centralized system
-Normalized into a common format
-Enriched with context (cloud, account, resource, IAM actor)
-Assigned a severity level based on risk and impact
+• Aggregated into a centralized system
+
+• Normalized into a common format
+
+• Enriched with context (cloud, account, resource, IAM actor)
+
+• Assigned a severity level based on risk and impact
 ________________________________________
 
 ## Alert Overview & Prioritization
-All incoming alerts are presented in a centralized dashboard. The analyst quickly scans and prioritizes alerts using severity, resource type, and timestamp to identify high-risk issues that require immediate attention.
+
+All alerts are displayed in a dashboard with severity cards (Critical, High, Medium, Low) along with MTTR and recent incident history.
+
+The analyst:
+
+• Quickly scans alert distribution
+
+• Identifies high-risk alerts (Critical/High)
+
+• Uses MTTR trends to understand response performance
 ________________________________________
 
 ## Alert Filtering & Selection
-To reduce noise, the analyst applies filters such as severity, cloud account, or alert status. A specific alert is then selected for deeper analysis.
+
+The analyst navigates to the Incidents table to reduce noise and focus on actionable alerts.
+
+They apply filters such as:
+
+• Severity
+
+• Cloud (AWS / Azure / GCP)
+
+• Account
+
+• Status (Open / In Review / Resolved)
+
+A specific alert is selected for deeper investigation.
 ________________________________________
 
 ## Contextual Investigation
-The selected alert is expanded to view detailed information, including affected resources, activity logs, and related events. This helps the analyst understand the root cause and potential impact.
+
+The selected alert opens in a detailed investigation view.
+
+The analyst reviews:
+
+• Affected resource (e.g., S3 bucket, IAM user)
+
+• Cloud and account context
+
+• IAM actor (who performed the action)
+
+• Data exposure & sensitive assets
+
+• Audit trail (timeline of events)
 ________________________________________
 
-## Decision & Action
-Based on the investigation, the analyst determines the appropriate response. Actions may include resolving the issue, assigning it to another team, marking it as a false positive, or monitoring it further.
+## Playbook-Assisted Decision & Action
+
+Based on the investigation, the analyst determines the next step.
+
+They can:
+
+Refer to playbooks for standardized remediation of known issues
+
+Execute actions:
+
+• Resolve
+
+• Assign
+
+• Mark as false positive
+
+• Keep in review
+
+## Playbooks help:
+
+• Reduce decision time
+
+• Ensure consistent remediation
+
+• Enable faster onboarding of new analysts
 ________________________________________
 
-## Resolution & Documentation
-After taking action, the alert status is updated. Relevant notes, actions taken, and observations are recorded to maintain a clear audit trail.
+## Remediation & Automation
+
+## After remediation:
+
+• Alert status is updated (Resolved / Closed)
+
+• Actions taken are recorded in the audit trail
+
+• Evidence and notes are stored for compliance and future reference
 ________________________________________
 
 ## Continuous Workflow
-The analyst moves on to the next prioritized alert, ensuring continuous monitoring and efficient handling of incoming security issues.
+
+The analyst proceeds to the next alert while the system improves over time:
+
+• Repeated alerts → converted into playbooks
+
+• Alerts may be grouped/deduplicated to reduce noise
+
+• Metrics like MTTR are updated to track efficiency
