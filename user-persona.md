@@ -2,14 +2,20 @@ User Persona – Cloud Security Analyst
 
 Role Summary
 
-A Cloud Security Analyst is responsible for continuously monitoring cloud infrastructure and identifying potential security threats, misconfigurations, and suspicious activities across multiple cloud environments.
+A Cloud Security Analyst is responsible for monitoring, triaging, and resolving security alerts across multi-cloud environments (AWS, Azure, GCP) using a centralized platform that supports prioritization, investigation, and remediation workflows.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Work Context
 
-Handles alerts from services like AWS GuardDuty, CloudTrail, and security tools.
-Works across multiple cloud accounts and environments.
-Deals with both real threats and large volumes of low-risk alerts.
+• Handles alerts from services like AWS GuardDuty, AWS CloudTrail, and equivalent tools in Azure & GCP
+
+• Works across multiple cloud accounts and regions
+
+• Uses a centralized dashboard to monitor alerts, filter incidents, and investigate issues
+
+• Relies on playbooks for standardized remediation of recurring alerts
+
+• Deals with both critical threats and high volumes of low-priority alerts
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Experience Level
@@ -20,46 +26,64 @@ Strong understanding of IAM, networking, and cloud services
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Core Activities
 
-•	Review incoming alerts and classify their severity
+• Prioritize alerts using severity cards (Critical, High, Medium, Low)
 
-•	Correlate alerts with logs and resource activity
+• Filter and select incidents using attributes like cloud, account, and status
 
-•	Validate whether an alert is a real threat or false positive
+• Investigate alerts via a detailed view (resource, IAM actor, audit trail)
 
-•	Initiate or recommend remediation steps
+• Correlate logs and activity to identify root cause
 
-•	Document findings and update alert status
+• Use playbooks to apply standardized remediation steps
+
+• Take actions:
+
+Resolve
+
+Assign
+
+• Mark as false positive / in review
+
+• Document actions via audit trail
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  Key Challenges
 
-•	Large number of alerts makes prioritization difficult
+• High alert volume leads to alert fatigue
 
-•	Important alerts may get buried under low-risk ones
+• Difficulty in prioritizing critical alerts quickly
 
-•	Lack of unified view for investigation data
+• Lack of unified visibility across multiple clouds
 
-•	Switching between multiple tools slows down response time
+• Context switching between tools slows investigation
+
+• Repeated effort in handling similar alerts without standardization
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Objectives
 
-•	Identify and act on high-risk alerts quickly
+• Quickly identify and act on high-severity alerts
 
-•	Gain complete context without navigating multiple systems
+• Perform end-to-end investigation in one place
 
-•	Minimize time spent on low-value alerts
+• Reduce time spent on low-value or duplicate alerts
 
-•	Improve response efficiency and reduce security risks
+• Use playbooks to standardize and speed up remediation
+
+• Improve MTTR (Mean Time To Resolve)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Opportunity for Improvement 
 
 
-•	Centralized platform for alert visibility
+• Centralized multi-cloud dashboard for unified visibility
 
-•	Smart prioritization of alerts based on risk
+• Severity-based prioritization to reduce noise
 
-•	Integrated investigation data (logs, resources, actions)
+• Integrated investigation panel (logs, IAM, resource context)
 
-•	Faster decision-making with actionable insights
+• Playbook-driven remediation for faster, consistent response
+
+• Actionable UI (resolve, assign, automate fixes)
+
+• Alert filtering & grouping to handle large-scale environments efficiently
