@@ -70,6 +70,8 @@ Objectives
 
 • Use playbooks to standardize and speed up remediation
 
+•  Usuage of remediation role with least privilege for automatic fix 
+
 • Improve MTTR (Mean Time To Resolve)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -82,8 +84,14 @@ Opportunity for Improvement
 
 • Integrated investigation panel (logs, IAM, resource context)
 
+• Using Specialies IAM roles integration with vloud services like lambda , EventBridge to resolve issues automatically
+
 • Playbook-driven remediation for faster, consistent response
 
 • Actionable UI (resolve, assign, automate fixes)
 
 • Alert filtering & grouping to handle large-scale environments efficiently
+
+• Maintaining Default cloud resources with Iaac for safe practices
+
+ 
