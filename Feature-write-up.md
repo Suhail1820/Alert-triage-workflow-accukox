@@ -52,3 +52,23 @@ The proposed system addresses these gaps by introducing a centralized interface 
 
 •	Integration with ticketing tools (JIRA, ServiceNow)
 
+# Development action
+
+# Prevention is better than cure 
+
+Apart from the above proposed approches we can minimise the exploitation of by following these below practices:
+
+• Must Fix insecure default configurations in code
+
+• Update infrastructure templates (Terraform)
+
+• Enforce policies (like mandatory encryption)
+
+• Improve CI/CD security checks
+
+• Proper configuration of Cloud watch, Cloud trail, AWS Guard Duty to all services in all regions or else we wont notified alerts, it takes lot of time to find the cause and root cause
+
+• Creating Remediation role actions for the recently faced threats with least privilege to identify and resolve small issues quickly 
+
+• Documenting the resolved issues helps the security team to solve the issue with ease
+
