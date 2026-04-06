@@ -2,7 +2,7 @@ User Persona – Cloud Security Analyst
 
 Role Summary
 
-A Cloud Security Analyst is responsible for monitoring, triaging, and resolving security alerts across multi-cloud environments (AWS, Azure, GCP) using a centralized platform that supports prioritization, investigation, and remediation workflows.
+A Cloud Security engineer is responsible for monitoring, triaging, and resolving security alerts across multi-cloud environments (AWS, Azure, GCP) using a centralized platform that supports prioritization, investigation, and remediation workflows.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Work Context
