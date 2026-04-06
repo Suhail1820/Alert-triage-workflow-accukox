@@ -1,4 +1,4 @@
-User Persona – Cloud Security Analyst
+User Persona – Cloud Security Engineer
 
 Role Summary
 
