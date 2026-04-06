@@ -6,7 +6,7 @@ While severity-based alerts exist, they are not always effectively prioritized w
 
 The proposed system addresses these gaps by introducing a centralized interface that combines prioritization, investigation, and playbook-driven remediation, along with controlled actions based on least privilege.
 
-## Native vs Proposed solution
+# Native vs Proposed solution
 
 •	Fragmented tools → Unified workflow
 (No switching between multiple consoles) 
@@ -19,3 +19,36 @@ The proposed system addresses these gaps by introducing a centralized interface 
 
 •	Manual fixes → Controlled remediation (least privilege)
 (Faster yet secure actions)
+
+# Must Have 
+
+•	Severity-based dashboard (Critical / High / Medium / Low) 
+
+•	Incidents table with filtering (severity, cloud, account, status) 
+
+•	Detailed investigation panel (resource, IAM actor, audit trail) 
+
+ These are essential because they directly enable triage + investigation
+
+# Good to Have 
+
+•	Multi-cloud visibility (AWS / Azure / GCP in one place) 
+
+•	Status tracking (Open / In Review / Resolved) 
+
+•	Playbooks for common alerts 
+
+ These make the system usable in real enterprise environments
+ 
+ Especially playbooks → reduce repeated work
+
+# Nice to Have 
+
+•	Auto-remediation (one-click or fully automated fixes) 
+
+•	Alert deduplication / grouping 
+
+•	Playbook recommendations based on alert type 
+
+•	Integration with ticketing tools (JIRA, ServiceNow)
+
